@@ -1,0 +1,241 @@
+2021-59-24 22:59:33 DESKTOP-FAQ9ULD 1 Application Started  
+2021-59-24 22:59:35 DESKTOP-FAQ9ULD 1 Application started. Press Ctrl+C to shut down.  
+2021-59-24 22:59:35 DESKTOP-FAQ9ULD 1 Hosting environment: "Development"  
+2021-59-24 22:59:35 DESKTOP-FAQ9ULD 1 Content root path: "C:\Users\ilker\OneDrive\Masaüstü\HB-projects\HW2-RentACar\HW2-RentACar.API"  
+2021-59-24 22:59:35 DESKTOP-FAQ9ULD 5 Request starting HTTP/2 GET https://localhost:44330/swagger/index.html - -  
+2021-59-24 22:59:35 DESKTOP-FAQ9ULD 4 Request finished HTTP/2 GET https://localhost:44330/swagger/index.html - - - 200 - text/html;charset=utf-8 173.4176ms  
+2021-59-24 22:59:35 DESKTOP-FAQ9ULD 4 Request starting HTTP/2 GET https://localhost:44330/swagger/v1/swagger.json - -  
+2021-59-24 22:59:35 DESKTOP-FAQ9ULD 8 Request finished HTTP/2 GET https://localhost:44330/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.8059ms  
+2021-59-24 22:59:49 DESKTOP-FAQ9ULD 4 Request starting HTTP/2 GET https://localhost:44330/api/Car - -  
+2021-59-24 22:59:49 DESKTOP-FAQ9ULD 4 Executing endpoint '"HW2_RentACar.API.Controllers.CarController.GetAllAsync (HW2-RentACar.API)"'  
+2021-59-24 22:59:49 DESKTOP-FAQ9ULD 4 Route matched with "{action = \"GetAll\", controller = \"Car\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "HW2_RentACar.API.Controllers.CarController" ("HW2-RentACar.API").  
+2021-59-24 22:59:50 DESKTOP-FAQ9ULD 13 Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[HW2_RentACar.Application.DTOs.CarDto, HW2-RentACar.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.  
+2021-59-24 22:59:50 DESKTOP-FAQ9ULD 13 Executed action "HW2_RentACar.API.Controllers.CarController.GetAllAsync (HW2-RentACar.API)" in 767.2994ms  
+2021-59-24 22:59:50 DESKTOP-FAQ9ULD 13 Executed endpoint '"HW2_RentACar.API.Controllers.CarController.GetAllAsync (HW2-RentACar.API)"'  
+2021-59-24 22:59:50 DESKTOP-FAQ9ULD 5 Request finished HTTP/2 GET https://localhost:44330/api/Car - - - 200 - application/json;+charset=utf-8 857.2158ms  
+2021-14-24 20:14:23 cad1ecec92c8 1 Application Started  
+2021-14-24 20:14:26 cad1ecec92c8 1 Now listening on: "http://[::]:80"  
+2021-14-24 20:14:26 cad1ecec92c8 1 Application started. Press Ctrl+C to shut down.  
+2021-14-24 20:14:26 cad1ecec92c8 1 Hosting environment: "Development"  
+2021-14-24 20:14:26 cad1ecec92c8 1 Content root path: "/app"  
+2021-14-24 20:14:28 cad1ecec92c8 11 Request starting HTTP/1.1 GET http://localhost:49155/swagger - -  
+2021-14-24 20:14:29 cad1ecec92c8 11 Request finished HTTP/1.1 GET http://localhost:49155/swagger - - - 301 0 - 123.6601ms  
+2021-14-24 20:14:29 cad1ecec92c8 11 Request starting HTTP/1.1 GET http://localhost:49155/swagger/index.html - -  
+2021-14-24 20:14:29 cad1ecec92c8 11 Request finished HTTP/1.1 GET http://localhost:49155/swagger/index.html - - - 200 - text/html;charset=utf-8 147.1042ms  
+2021-14-24 20:14:29 cad1ecec92c8 7 Request starting HTTP/1.1 GET http://localhost:49155/swagger/swagger-ui.css - -  
+2021-14-24 20:14:29 cad1ecec92c8 11 Request starting HTTP/1.1 GET http://localhost:49155/swagger/swagger-ui-bundle.js - -  
+2021-14-24 20:14:29 cad1ecec92c8 8 Request starting HTTP/1.1 GET http://localhost:49155/swagger/swagger-ui-standalone-preset.js - -  
+2021-14-24 20:14:29 cad1ecec92c8 15 Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'  
+2021-14-24 20:14:29 cad1ecec92c8 15 Request finished HTTP/1.1 GET http://localhost:49155/swagger/swagger-ui.css - - - 200 142933 text/css 262.1360ms  
+2021-14-24 20:14:29 cad1ecec92c8 14 Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'  
+2021-14-24 20:14:29 cad1ecec92c8 14 Request finished HTTP/1.1 GET http://localhost:49155/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 179.2382ms  
+2021-14-24 20:14:29 cad1ecec92c8 15 Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'  
+2021-14-24 20:14:29 cad1ecec92c8 15 Request finished HTTP/1.1 GET http://localhost:49155/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 419.5543ms  
+2021-14-24 20:14:30 cad1ecec92c8 4 Request starting HTTP/1.1 GET http://localhost:49155/swagger/v1/swagger.json - -  
+2021-14-24 20:14:30 cad1ecec92c8 11 Request starting HTTP/1.1 GET http://localhost:49155/swagger/favicon-32x32.png - -  
+2021-14-24 20:14:30 cad1ecec92c8 11 Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'  
+2021-14-24 20:14:30 cad1ecec92c8 11 Request finished HTTP/1.1 GET http://localhost:49155/swagger/favicon-32x32.png - - - 200 628 image/png 4.9888ms  
+2021-14-24 20:14:30 cad1ecec92c8 4 Request finished HTTP/1.1 GET http://localhost:49155/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 160.7871ms  
+2021-03-25 22:03:29 DESKTOP-FAQ9ULD 1 Application Started  
+2021-03-25 22:03:33 DESKTOP-FAQ9ULD 1 Application started. Press Ctrl+C to shut down.  
+2021-03-25 22:03:33 DESKTOP-FAQ9ULD 1 Hosting environment: "Development"  
+2021-03-25 22:03:33 DESKTOP-FAQ9ULD 1 Content root path: "C:\Users\ilker\OneDrive\Masaüstü\HB-projects\HW2-RentACar\HW2-RentACar.API"  
+2021-03-25 22:03:33 DESKTOP-FAQ9ULD 5 Request starting HTTP/1.1 GET http://localhost:20995/swagger - -  
+2021-03-25 22:03:33 DESKTOP-FAQ9ULD 6 Request starting HTTP/1.1 GET http://localhost:20995/swagger/index.html - -  
+2021-03-25 22:03:33 DESKTOP-FAQ9ULD 4 Request finished HTTP/1.1 GET http://localhost:20995/swagger - - - 301 - - 125.9677ms  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 14 Request finished HTTP/1.1 GET http://localhost:20995/swagger/index.html - - - 200 - text/html;charset=utf-8 147.1467ms  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 14 Request starting HTTP/1.1 GET http://localhost:20995/swagger/swagger-ui.css - -  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 6 Request starting HTTP/1.1 GET http://localhost:20995/swagger/swagger-ui-bundle.js - -  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 4 Request starting HTTP/1.1 GET http://localhost:20995/swagger/swagger-ui-standalone-preset.js - -  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 5 Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 11 Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 15 Request finished HTTP/1.1 GET http://localhost:20995/swagger/swagger-ui.css - - - 200 142933 text/css 68.7023ms  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 15 Request finished HTTP/1.1 GET http://localhost:20995/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 70.6889ms  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 15 Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 4 Request finished HTTP/1.1 GET http://localhost:20995/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 97.1441ms  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 4 Request starting HTTP/1.1 GET http://localhost:20995/swagger/v1/swagger.json - -  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 15 Request starting HTTP/1.1 GET http://localhost:20995/swagger/favicon-32x32.png - -  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 15 Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 11 Request finished HTTP/1.1 GET http://localhost:20995/swagger/favicon-32x32.png - - - 200 628 image/png 5.0196ms  
+2021-03-25 22:03:34 DESKTOP-FAQ9ULD 14 Request finished HTTP/1.1 GET http://localhost:20995/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.9185ms  
+2021-03-25 22:03:39 DESKTOP-FAQ9ULD 10 Request starting HTTP/1.1 GET http://localhost:20995/api/Car - -  
+2021-03-25 22:03:39 DESKTOP-FAQ9ULD 10 Executing endpoint '"HW2_RentACar.API.Controllers.CarController.GetAllAsync (HW2-RentACar.API)"'  
+2021-03-25 22:03:39 DESKTOP-FAQ9ULD 10 Route matched with "{action = \"GetAll\", controller = \"Car\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "HW2_RentACar.API.Controllers.CarController" ("HW2-RentACar.API").  
+2021-03-25 22:03:40 DESKTOP-FAQ9ULD 14 Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[HW2_RentACar.Application.DTOs.CarDto, HW2-RentACar.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.  
+2021-03-25 22:03:40 DESKTOP-FAQ9ULD 14 Executed action "HW2_RentACar.API.Controllers.CarController.GetAllAsync (HW2-RentACar.API)" in 1106.0577ms  
+2021-03-25 22:03:40 DESKTOP-FAQ9ULD 14 Executed endpoint '"HW2_RentACar.API.Controllers.CarController.GetAllAsync (HW2-RentACar.API)"'  
+2021-03-25 22:03:40 DESKTOP-FAQ9ULD 10 Request finished HTTP/1.1 GET http://localhost:20995/api/Car - - - 200 - application/json;+charset=utf-8 1209.0360ms  
+2021-05-25 22:05:13 DESKTOP-FAQ9ULD 1 Application Started  
+2021-05-25 22:05:16 DESKTOP-FAQ9ULD 1 Entity Framework Core "5.0.11" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HW2-RentACar.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null "  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 1 Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 1 Executed DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 1 Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 1 Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 1 Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 1 No migrations were applied. The database is already up to date.  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 1 Application started. Press Ctrl+C to shut down.  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 1 Hosting environment: "Development"  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 1 Content root path: "C:\Users\ilker\OneDrive\Masaüstü\HB-projects\HW2-RentACar\HW2-RentACar.API"  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 8 Request starting HTTP/1.1 GET http://localhost:20995/swagger/index.html - -  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 6 Request finished HTTP/1.1 GET http://localhost:20995/swagger/index.html - - - 200 - text/html;charset=utf-8 133.5732ms  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 4 Request starting HTTP/1.1 GET http://localhost:20995/swagger/v1/swagger.json - -  
+2021-05-25 22:05:18 DESKTOP-FAQ9ULD 11 Request finished HTTP/1.1 GET http://localhost:20995/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.5185ms  
+2021-05-25 22:05:23 DESKTOP-FAQ9ULD 15 Request starting HTTP/1.1 GET http://localhost:20995/api/Car - -  
+2021-05-25 22:05:23 DESKTOP-FAQ9ULD 15 Executing endpoint '"HW2_RentACar.API.Controllers.CarController.GetAllAsync (HW2-RentACar.API)"'  
+2021-05-25 22:05:23 DESKTOP-FAQ9ULD 15 Route matched with "{action = \"GetAll\", controller = \"Car\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "HW2_RentACar.API.Controllers.CarController" ("HW2-RentACar.API").  
+2021-05-25 22:05:24 DESKTOP-FAQ9ULD 6 Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[HW2_RentACar.Application.DTOs.CarDto, HW2-RentACar.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.  
+2021-05-25 22:05:24 DESKTOP-FAQ9ULD 6 Executed action "HW2_RentACar.API.Controllers.CarController.GetAllAsync (HW2-RentACar.API)" in 544.6162ms  
+2021-05-25 22:05:24 DESKTOP-FAQ9ULD 6 Executed endpoint '"HW2_RentACar.API.Controllers.CarController.GetAllAsync (HW2-RentACar.API)"'  
+2021-05-25 22:05:24 DESKTOP-FAQ9ULD 15 Request finished HTTP/1.1 GET http://localhost:20995/api/Car - - - 200 - application/json;+charset=utf-8 620.5518ms  
+2021-25-25 19:25:32 3c82edabd8ed 1 Application Started  
+2021-25-25 19:25:36 3c82edabd8ed 1 Entity Framework Core "5.0.11" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=HW2-RentACar.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null "  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Applying migration '"20211021095226_Initial"'.  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Cars] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NULL,
+    [ModelYear] int NOT NULL,
+    [Price] float NOT NULL,
+    CONSTRAINT [PK_Cars] PRIMARY KEY ([Id])
+);"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Clients] (
+    [Id] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NULL,
+    [LastName] nvarchar(max) NULL,
+    CONSTRAINT [PK_Clients] PRIMARY KEY ([Id])
+);"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Rents] (
+    [Id] int NOT NULL IDENTITY,
+    [CreatedAt] datetime2 NOT NULL,
+    [RentingDayDuration] int NOT NULL,
+    [TotalPrice] float NOT NULL,
+    [ClientId] int NOT NULL,
+    [CarId] int NOT NULL,
+    CONSTRAINT [PK_Rents] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Rents_Cars_CarId] FOREIGN KEY ([CarId]) REFERENCES [Cars] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Rents_Clients_ClientId] FOREIGN KEY ([ClientId]) REFERENCES [Clients] ([Id]) ON DELETE CASCADE
+);"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ModelYear', N'Name', N'Price') AND [object_id] = OBJECT_ID(N'[Cars]'))
+    SET IDENTITY_INSERT [Cars] ON;
+INSERT INTO [Cars] ([Id], [ModelYear], [Name], [Price])
+VALUES (1, 2020, N'Fiat', 250.0E0),
+(2, 2019, N'BMW', 350.0E0),
+(3, 2021, N'Mercedes', 350.0E0),
+(4, 2018, N'Ford', 200.0E0);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ModelYear', N'Name', N'Price') AND [object_id] = OBJECT_ID(N'[Cars]'))
+    SET IDENTITY_INSERT [Cars] OFF;"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'FirstName', N'LastName') AND [object_id] = OBJECT_ID(N'[Clients]'))
+    SET IDENTITY_INSERT [Clients] ON;
+INSERT INTO [Clients] ([Id], [FirstName], [LastName])
+VALUES (1, N'İlker', N'Baltacı'),
+(2, N'Abuzer', N'Kömürcü'),
+(3, N'Eşref', N'Bitlis'),
+(4, N'Tombalacı', N'Mehmet');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'FirstName', N'LastName') AND [object_id] = OBJECT_ID(N'[Clients]'))
+    SET IDENTITY_INSERT [Clients] OFF;"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'CarId', N'ClientId', N'CreatedAt', N'RentingDayDuration', N'TotalPrice') AND [object_id] = OBJECT_ID(N'[Rents]'))
+    SET IDENTITY_INSERT [Rents] ON;
+INSERT INTO [Rents] ([Id], [CarId], [ClientId], [CreatedAt], [RentingDayDuration], [TotalPrice])
+VALUES (1, 3, 1, '2021-10-21T12:52:25.6110702+00:00', 3, 1050.0E0);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'CarId', N'ClientId', N'CreatedAt', N'RentingDayDuration', N'TotalPrice') AND [object_id] = OBJECT_ID(N'[Rents]'))
+    SET IDENTITY_INSERT [Rents] OFF;"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'CarId', N'ClientId', N'CreatedAt', N'RentingDayDuration', N'TotalPrice') AND [object_id] = OBJECT_ID(N'[Rents]'))
+    SET IDENTITY_INSERT [Rents] ON;
+INSERT INTO [Rents] ([Id], [CarId], [ClientId], [CreatedAt], [RentingDayDuration], [TotalPrice])
+VALUES (2, 1, 3, '2021-10-21T12:52:25.6133742+00:00', 4, 1000.0E0);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'CarId', N'ClientId', N'CreatedAt', N'RentingDayDuration', N'TotalPrice') AND [object_id] = OBJECT_ID(N'[Rents]'))
+    SET IDENTITY_INSERT [Rents] OFF;"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'CarId', N'ClientId', N'CreatedAt', N'RentingDayDuration', N'TotalPrice') AND [object_id] = OBJECT_ID(N'[Rents]'))
+    SET IDENTITY_INSERT [Rents] ON;
+INSERT INTO [Rents] ([Id], [CarId], [ClientId], [CreatedAt], [RentingDayDuration], [TotalPrice])
+VALUES (3, 4, 4, '2021-10-21T12:52:25.6133774+00:00', 5, 1000.0E0);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'CarId', N'ClientId', N'CreatedAt', N'RentingDayDuration', N'TotalPrice') AND [object_id] = OBJECT_ID(N'[Rents]'))
+    SET IDENTITY_INSERT [Rents] OFF;"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_Rents_CarId] ON [Rents] ([CarId]);"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_Rents_ClientId] ON [Rents] ([ClientId]);"  
+2021-25-25 19:25:38 3c82edabd8ed 1 Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20211021095226_Initial', N'5.0.11');"  
+2021-25-25 19:25:39 3c82edabd8ed 1 Now listening on: "http://[::]:80"  
+2021-25-25 19:25:39 3c82edabd8ed 1 Application started. Press Ctrl+C to shut down.  
+2021-25-25 19:25:39 3c82edabd8ed 1 Hosting environment: "Development"  
+2021-25-25 19:25:39 3c82edabd8ed 1 Content root path: "/app"  
+2021-25-25 19:25:40 3c82edabd8ed 8 Request starting HTTP/1.1 GET http://localhost:54358/swagger - -  
+2021-25-25 19:25:40 3c82edabd8ed 8 Request finished HTTP/1.1 GET http://localhost:54358/swagger - - - 301 0 - 99.9773ms  
+2021-25-25 19:25:40 3c82edabd8ed 9 Request starting HTTP/1.1 GET http://localhost:54358/swagger/index.html - -  
+2021-25-25 19:25:41 3c82edabd8ed 9 Request finished HTTP/1.1 GET http://localhost:54358/swagger/index.html - - - 200 - text/html;charset=utf-8 178.5358ms  
+2021-25-25 19:25:41 3c82edabd8ed 9 Request starting HTTP/1.1 GET http://localhost:54358/swagger/swagger-ui.css - -  
+2021-25-25 19:25:41 3c82edabd8ed 12 Request starting HTTP/1.1 GET http://localhost:54358/swagger/swagger-ui-bundle.js - -  
+2021-25-25 19:25:41 3c82edabd8ed 8 Request starting HTTP/1.1 GET http://localhost:54358/swagger/swagger-ui-standalone-preset.js - -  
+2021-25-25 19:25:41 3c82edabd8ed 10 Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'  
+2021-25-25 19:25:41 3c82edabd8ed 10 Request finished HTTP/1.1 GET http://localhost:54358/swagger/swagger-ui.css - - - 200 142933 text/css 221.2244ms  
+2021-25-25 19:25:41 3c82edabd8ed 10 Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'  
+2021-25-25 19:25:41 3c82edabd8ed 10 Request finished HTTP/1.1 GET http://localhost:54358/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 260.5391ms  
+2021-25-25 19:25:41 3c82edabd8ed 4 Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'  
+2021-25-25 19:25:41 3c82edabd8ed 4 Request finished HTTP/1.1 GET http://localhost:54358/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 402.0902ms  
+2021-25-25 19:25:41 3c82edabd8ed 10 Request starting HTTP/1.1 GET http://localhost:54358/swagger/v1/swagger.json - -  
+2021-25-25 19:25:41 3c82edabd8ed 4 Request starting HTTP/1.1 GET http://localhost:54358/swagger/favicon-32x32.png - -  
+2021-25-25 19:25:41 3c82edabd8ed 4 Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'  
+2021-25-25 19:25:41 3c82edabd8ed 4 Request finished HTTP/1.1 GET http://localhost:54358/swagger/favicon-32x32.png - - - 200 628 image/png 10.8947ms  
+2021-25-25 19:25:41 3c82edabd8ed 10 Request finished HTTP/1.1 GET http://localhost:54358/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 146.8873ms  
+2021-26-25 19:26:05 3c82edabd8ed 4 Request starting HTTP/1.1 GET http://localhost:8000/swagger - -  
+2021-26-25 19:26:05 3c82edabd8ed 4 Request finished HTTP/1.1 GET http://localhost:8000/swagger - - - 301 0 - 22.9919ms  
+2021-26-25 19:26:05 3c82edabd8ed 4 Request starting HTTP/1.1 GET http://localhost:8000/swagger/index.html - -  
+2021-26-25 19:26:05 3c82edabd8ed 4 Request finished HTTP/1.1 GET http://localhost:8000/swagger/index.html - - - 200 - text/html;charset=utf-8 22.7657ms  
+2021-26-25 19:26:05 3c82edabd8ed 21 Request starting HTTP/1.1 GET http://localhost:8000/swagger/swagger-ui.css - -  
+2021-26-25 19:26:05 3c82edabd8ed 17 Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'  
+2021-26-25 19:26:05 3c82edabd8ed 16 Request starting HTTP/1.1 GET http://localhost:8000/swagger/swagger-ui-bundle.js - -  
+2021-26-25 19:26:05 3c82edabd8ed 17 Request finished HTTP/1.1 GET http://localhost:8000/swagger/swagger-ui.css - - - 200 142933 text/css 97.0542ms  
+2021-26-25 19:26:05 3c82edabd8ed 17 Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'  
+2021-26-25 19:26:05 3c82edabd8ed 17 Request finished HTTP/1.1 GET http://localhost:8000/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 94.5144ms  
+2021-26-25 19:26:05 3c82edabd8ed 19 Request starting HTTP/1.1 GET http://localhost:8000/swagger/swagger-ui-standalone-preset.js - -  
+2021-26-25 19:26:05 3c82edabd8ed 16 Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'  
+2021-26-25 19:26:05 3c82edabd8ed 16 Request finished HTTP/1.1 GET http://localhost:8000/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 34.9409ms  
+2021-26-25 19:26:06 3c82edabd8ed 4 Request starting HTTP/1.1 GET http://localhost:8000/swagger/v1/swagger.json - -  
+2021-26-25 19:26:06 3c82edabd8ed 4 Request finished HTTP/1.1 GET http://localhost:8000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.5299ms  
+2021-26-25 19:26:06 3c82edabd8ed 21 Request starting HTTP/1.1 GET http://localhost:8000/swagger/favicon-32x32.png - -  
+2021-26-25 19:26:06 3c82edabd8ed 21 Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'  
+2021-26-25 19:26:06 3c82edabd8ed 21 Request finished HTTP/1.1 GET http://localhost:8000/swagger/favicon-32x32.png - - - 200 628 image/png 6.7368ms  
+2021-26-25 19:26:11 3c82edabd8ed 20 Request starting HTTP/1.1 GET http://localhost:8000/api/Car - -  
+2021-26-25 19:26:11 3c82edabd8ed 20 Executing endpoint '"HW2_RentACar.API.Controllers.CarController.GetAllAsync (HW2-RentACar.API)"'  
+2021-26-25 19:26:12 3c82edabd8ed 20 Route matched with "{action = \"GetAll\", controller = \"Car\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync()" on controller "HW2_RentACar.API.Controllers.CarController" ("HW2-RentACar.API").  
+2021-26-25 19:26:13 3c82edabd8ed 20 Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[HW2_RentACar.Application.DTOs.CarDto, HW2-RentACar.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.  
+2021-26-25 19:26:13 3c82edabd8ed 20 Executed action "HW2_RentACar.API.Controllers.CarController.GetAllAsync (HW2-RentACar.API)" in 1101.1452ms  
+2021-26-25 19:26:13 3c82edabd8ed 20 Executed endpoint '"HW2_RentACar.API.Controllers.CarController.GetAllAsync (HW2-RentACar.API)"'  
+2021-26-25 19:26:13 3c82edabd8ed 20 Request finished HTTP/1.1 GET http://localhost:8000/api/Car - - - 200 - application/json;+charset=utf-8 1229.9940ms  
